@@ -44,19 +44,19 @@ function setup() {
   BlockBlue7 = new Box(320, 182, 20, 20);
 
   //second level
-  BlockPink1 = new BoxPink(201, 2, 20, 20);
+  BlockPink1 = new BoxPink(201, 150, 20, 20);
 
-  BlockPink2 = new BoxPink(220, 2, 20, 20);
+  BlockPink2 = new BoxPink(220, 150, 20, 20);
 
-  BlockPink3 = new BoxPink(240, 2, 20, 20);
+  BlockPink3 = new BoxPink(240, 150, 20, 20);
 
-  BlockPink4 = new BoxPink(260, 2, 20, 20);
+  BlockPink4 = new BoxPink(260, 150, 20, 20);
 
-  BlockPink5 = new BoxPink(280, 2, 20, 20);
+  BlockPink5 = new BoxPink(280, 150, 20, 20);
 
-  BlockPink6 = new BoxPink(300, 2, 20, 20);
+  BlockPink6 = new BoxPink(300, 150, 20, 20);
 
-  BlockPink7 = new BoxPink(320, 2, 20, 20);
+  BlockPink7 = new BoxPink(320, 150, 20, 20);
 
   //third level
   BlockBlue8  = new Box(202, 182, 20, 20);
