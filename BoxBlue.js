@@ -11,7 +11,7 @@ class Box {
         }
 
         this.body = Bodies.rectangle(x, y, width, height, options);
-
+        this.image = loadImage("block.png");
         //NameSpacing(renaming width and height)
         this.width = width;
         this.height = height;
@@ -23,7 +23,7 @@ class Box {
         var pos = this.body.position;
         strokeWeight(2);
         fill("blue");
-        rect(pos.x, pos.y, this.width, this.height);
+        image(this.image, pos.x, pos.y, this.width, this.height)
 
     }
 }
