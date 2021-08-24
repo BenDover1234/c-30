@@ -1,4 +1,4 @@
-class Box {
+class BoxPink {
 
     constructor(x, y, width, height) {
         var options = {
