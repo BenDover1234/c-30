@@ -21,7 +21,7 @@ class Box {
     display() {
      //NameSpacing(renaming position of Ground)
         var pos = this.body.position;
-        if(this.body.speed < 2.5){
+        if(this.body.speed < 4){
              image(this.image, pos.x, pos.y, this.width, this.height);
         }
         else{
